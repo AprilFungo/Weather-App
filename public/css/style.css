@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/weather.jpg);
+background-repeat: no-repeat;
+background-size: cover; 
+min-height: 100vh;
+}
+
+/* navbar*/
+.top-nav{
+  background-color:#241e27;
+  width: 100%;
+  padding-right: 1%;
+  margin-bottom: 3%;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+    z-index: 1;
+}
+
+.container{
+    padding-top: 130px;
+}
+
+#app-name{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  padding-left: 3%;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+#topnavlink{ 
+     font-weight: bolder;
+     float:right;
+  display: block;
+  color: rgb(175, 159, 159);
+  text-align: center;
+ margin-top: 25px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-right: 1%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+
+#topnavlink::after{
+content: '';
+width: 0%;
+height: 2px;
+background: #aab698a4;
+display:block;
+margin: auto;
+}
+
+#topnavlink:hover::after{
+  width: 100%;
+  transition: 0.5s;
+}
+/* navbar*/
+
+/*card*/
+#parent-card{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#form-card{
+  background-color: rgba(240, 255, 255, 0.185);
+}
+.form-control:focus {
+box-shadow: none;
+}
+#result-card{
+ background-color: rgba(218, 228, 228, 0.623);
+}
+.btn{
+ float: right;
+}
+/*card*/

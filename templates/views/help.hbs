@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--bootstrap-->
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="css/about-style.css">
+   {{!-- font awesome --}}
+<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+{{>header}}
+    </div>
+    <div class="container">
+        <div class="row">
+            <!--help-->
+            <div id="help-card" class="card mt-5">
+                <h5 class="card-header pt-3 pb-3">{{helptext}}</h5>
+                <div class="card-body"> 
+                    <h5 class="card-title">What is weatherly app?</h5>
+                    <p class="card-text">Weatherly is a simple and elegant solution for seeing the current weather right from your mobiles and desktop whenever or where ever you are . Customize
+                    the menu bar to show current conditions, temperature, "feels like" temperature. The app locates your current
+                    location to provide incredibly accurate forecasts.</p>
+                     <h5 class="card-title">What are the benefits of having a weatherly?</h5>
+                    <p class="card-text">In the past few years web app development has become a booming industry, is to develop an effective app and reap the
+                    benefits of your labors. Our goal is to give knowledge that people and organizations may utilize to decrease weather-related losses and improve societal
+                    advantages, such as life and property protection, public health and safety, and economic prosperity and quality of life.</p>
+                    <h5 class="card-title">What’s behind the name weatherly?</h5>
+                    <p class="card-text">The name Weatherly is primarily a gender-neutral name of English origin that means From The Sheep Meadow.</p>
+                    <h5 class="card-title">What’s New?</h5>
+                    <p class="card-text">- Behind the scenes changes to support multiple sources of weather data (coming soon).</p>
+                </div>
+            </div>
+            <!--help-->
+        </div>
+    </div>
+
+      
+    {{>footer}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
