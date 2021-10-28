@@ -83,4 +83,14 @@ box-shadow: none;
 .btn{
  float: right;
 }
+#weekday{
+font-size: 25pt;
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, 'serif';
+}
+#month{
+  font-size: 15pt;
+}
+#day{
+   font-size: 15pt;
+}
 /*card*/

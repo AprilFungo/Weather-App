@@ -72,9 +72,10 @@ weekdayDiv.innerHTML = `${nameOfDay}`;
 const d = new Date();
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("month").innerHTML = months[d.getMonth()];
+//Display the date
 
 //display date
 const a = new Date();
 document.getElementById("day").innerHTML = a.getDate();
-
+//display date
 
