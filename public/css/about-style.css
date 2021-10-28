@@ -119,4 +119,7 @@ footer {
   background:linear-gradient(to right,#ffd89b, #19547b);
   padding-left: 2%;
 }  
+#errormessage{
+  padding-top:20%
+}
 /*footer*/

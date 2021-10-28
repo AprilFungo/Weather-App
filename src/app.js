@@ -95,7 +95,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404',{
         name:"April Fungo, Cris Ann Dacillo, Princes Rea Glipo",
-        errorMessage:"Page Not Found!"
+        errorMessage:"404 Page Not Found!"
     })
 })
 
