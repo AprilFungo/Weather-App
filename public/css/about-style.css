@@ -86,10 +86,7 @@ margin: auto;
   box-shadow: 5px 10px rgb(3, 34, 43);
   vertical-align: middle;
 }
-/* #details{
-  vertical-align: middle;
-  display: inline-block;
-} */
+
 #profile:hover{
   background:linear-gradient(to right,#24837e, #5f5d43c5);
   transition: 0.5s;

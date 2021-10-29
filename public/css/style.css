@@ -69,10 +69,10 @@ margin: auto;
 
 /*card*/
 #parent-card{
-  background-color: rgba(0, 0, 0, 0.5);
+ background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/gif.gif);
 }
 #form-card{
-  background-color: rgba(240, 255, 255, 0.185);
+  background-color: rgba(240, 255, 255, 0.075);
 }
 .form-control:focus {
 box-shadow: none;
@@ -85,7 +85,7 @@ box-shadow: none;
 }
 #weekday{
 font-size: 25pt;
-font-family: Cambria, Cochin, Georgia, Times, Times New Roman, 'serif';
+font-family:'Franklin Gothic Medium';
 }
 #month{
   font-size: 15pt;
@@ -94,6 +94,5 @@ font-family: Cambria, Cochin, Georgia, Times, Times New Roman, 'serif';
    font-size: 15pt;
 }
 #message-1{
-font-size: 20pt;
+font-size: 15 pt;
 }
-

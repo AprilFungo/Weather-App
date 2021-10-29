@@ -5,31 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather</title>
-    <!--bootstrap-->
+   {{!-- bootstrap --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!--bootstrap-->
+    {{!-- bootstrap --}}
+
     <link rel="icon" href="/img/weather.png">
+
+    {{!-- css --}}
    <link rel="stylesheet" href="/css/style.css">
+    {{!-- css --}}
 </head>
 <body>
 
+{{!-- navbar --}}
     <div class="content">
 {{>header}}
     </div>
+{{!-- navbar --}}
 
+{{!-- body container --}}
     <div class="container">
         <div class="row">
-            <div class="col-md-6 align-self-center">
-               
+
+            {{!-- col1 --}}
+            <div class="col-md-6 align-self-center">              
 <h1 class="display-5">WEATHERLY, the instant weather update provider.</h1>
 <p>Plan your day. Be ready. Take life easy with weatherly!</p>
             </div>
+            {{!-- col1 --}}
 
+            {{!-- col2 --}}
             <div class="col col-md-6 mb-5">
+
+                {{!-- parent card --}}
                 <div id="parent-card" class="card mt-4 mb-5">
                     <div class="card-body">
-                        <h1 class="display-6 text-center" style="color: white;">Find your weather here!</h1>
+
+                        {{!-- card title --}}
+                        <h4 class="display-6 text-center" style="color: white;">Find your weather here!</h4>
+                        {{!-- card title --}}
+
+                        {{!-- input card --}}
                        <div id="form-card" class="card">
                            <div class="card-body">
                                 <form row-g3>
@@ -41,6 +58,9 @@
                                 </form>
                            </div>
                        </div>
+                {{!-- input card --}}
+
+                {{!-- output card --}}
                         <div id="result-card" class="card mt-3 mb-2 pt-3">
                             <div class="card-body">
                               <div class="d-flex flex-row ps-2">
@@ -55,14 +75,22 @@
                                 {{!-- display weather forecast --}}
                                </div> 
                             </div>
-                </div>
-            </div>              
-        </div>      
-    </div>
+                        </div>
+                {{!-- output card --}}
+                  </div> 
+            {{!-- paent card --}}
 
+            {{!-- col2 --}}
+        </div>  
+    </div>
+{{!-- body container --}}
+
+{{!-- script --}}
 <script src="/js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    {{!-- script --}}
+
 </body>
 </html>
