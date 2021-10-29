@@ -5,48 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>weather</title>
-   {{!-- bootstrap --}}
+   {{!-- bootstrap start--}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    {{!-- bootstrap --}}
+    {{!-- bootstrap end--}}
 
     <link rel="icon" href="/img/weather.png">
 
-    {{!-- css --}}
+    {{!-- css start--}}
    <link rel="stylesheet" href="/css/style.css">
-    {{!-- css --}}
+    {{!-- css end--}}
 </head>
 <body>
 
-{{!-- navbar --}}
+{{!-- navbar start--}}
     <div class="content">
 {{>header}}
     </div>
-{{!-- navbar --}}
+{{!-- navbar end--}}
 
-{{!-- body container --}}
+{{!-- body container start--}}
     <div class="container">
         <div class="row">
 
-            {{!-- col1 --}}
+            {{!-- col1 start--}}
             <div class="col-md-6 align-self-center">              
 <h1 class="display-5">WEATHERLY, the instant weather update provider.</h1>
 <p>Plan your day. Be ready. Take life easy with weatherly!</p>
             </div>
-            {{!-- col1 --}}
+            {{!-- col1 end--}}
 
-            {{!-- col2 --}}
+            {{!-- col2 start--}}
             <div class="col col-md-6 mb-5">
 
-                {{!-- parent card --}}
+                {{!-- parent card start--}}
                 <div id="parent-card" class="card mt-4 mb-5">
                     <div class="card-body">
 
-                        {{!-- card title --}}
+                        {{!-- card title start--}}
                         <h4 class="display-6 text-center" style="color: white;">Find your weather here!</h4>
-                        {{!-- card title --}}
+                        {{!-- card title end--}}
 
-                        {{!-- input card --}}
+                        {{!-- input card start--}}
                        <div id="form-card" class="card">
                            <div class="card-body">
                                 <form row-g3>
@@ -58,39 +58,39 @@
                                 </form>
                            </div>
                        </div>
-                {{!-- input card --}}
+                {{!-- input card end--}}
 
-                {{!-- output card --}}
+                {{!-- output card start--}}
                         <div id="result-card" class="card mt-3 mb-2 pt-3">
                             <div class="card-body">
                               <div class="d-flex flex-row ps-2">
-                                    {{!-- display date data --}}
+                                    {{!-- display date data start--}}
                                     <p class="text-center"><span id="weekday"></span> <span id="month"></span>, <span id="day"></span></p>
-                                    {{!-- display date data --}}
+                                    {{!-- display date data end--}}
                                </div>
                                <div class="px-2">
-                                {{!-- display weather forecast --}}
+                                {{!-- display weather forecast start--}}
                                 <p id="message-1"></p>
                                 <p id="message-2"></p>
-                                {{!-- display weather forecast --}}
+                                {{!-- display weather forecast end--}}
                                </div> 
                             </div>
                         </div>
-                {{!-- output card --}}
+                {{!-- output card end--}}
                   </div> 
-            {{!-- paent card --}}
+            {{!-- parent card end--}}
 
-            {{!-- col2 --}}
+            {{!-- col2 end--}}
         </div>  
     </div>
-{{!-- body container --}}
+{{!-- body container end--}}
 
-{{!-- script --}}
+{{!-- script start--}}
 <script src="/js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-    {{!-- script --}}
+    {{!-- script end--}}
 
 </body>
 </html>

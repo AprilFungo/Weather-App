@@ -35,32 +35,25 @@ let nameOfDay;
 
 switch(dayOfWeekNumber){
     case 0: 
-        nameOfDay = 'Sunday';
-        quote = 'Time to chillax!';
+        nameOfDay = 'Sunday'
         break;
     case 1:
-        nameOfDay = 'Monday';
-        quote = 'Monday morning blues!';
+        nameOfDay = 'Monday'
         break;
     case 2:
-        nameOfDay = 'Tuesday';
-        quote = 'Taco Time!';
+        nameOfDay = 'Tuesday'
         break;
     case 3:
-        nameOfDay = 'Wednesday';
-        quote = 'Two more days to the weekend.';
+        nameOfDay = 'Wednesday'
         break;
     case 4:
-        nameOfDay = 'Thursday';
-        quote = 'The weekend is almost here...';
+        nameOfDay = 'Thursday'
         break;
     case 5:
-        nameOfDay = 'Friday';
-        quote = 'Weekend is here!';
+        nameOfDay = 'Friday'
         break;
     case 6:
-        nameOfDay = 'Saturday';
-        quote = 'Time to party!';
+        nameOfDay = 'Saturday'
         break;
 
 }
@@ -72,7 +65,7 @@ weekdayDiv.innerHTML = `${nameOfDay}`;
 const d = new Date();
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("month").innerHTML = months[d.getMonth()];
-//Display the date
+//Display 
 
 //display date
 const a = new Date();

@@ -23,18 +23,28 @@ app.use(express.static(publicDirectoryPath))
 //for index.hbs
 app.get('',(req,res)=>{
 res.render('index',{ 
-name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
+// name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
 })
+})
+
+app.get('/', (req, res) => {
+    res.render('index',{ 
+    })
+})
+
+app.get('/index', (req, res) => {
+    res.render('index',{ 
+    })
 })
 
 //for about.hbs
 app.get("/about",(req,res)=>{
     res.render('about',{
-name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
+// name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
     })
 })
 
-//forhelp.hbs
+//for help.hbs
 app.get("/help",(req,res)=>{
     res.render('help',{
         helptext:"Frequently asked questions.",
@@ -43,6 +53,9 @@ app.get("/help",(req,res)=>{
     })
 })
 
+
+
+//for weather data
 app.get('/weather',(req,res) =>{
     if(!req.query.address){
 return res.send({
@@ -95,7 +108,8 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404',{
         name:"April Fungo, Cris Ann Dacillo, Princes Rea Glipo",
-        errorMessage:"404 Page Not Found!"
+        errorMessage1:"404",
+        errorMessage2:"Page not found!"
     })
 })
 
