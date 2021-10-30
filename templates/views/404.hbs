@@ -16,40 +16,26 @@
 </head>
 <body>
 
-{{!-- container start--}}
-<div class="container">
-<div class="row tex-center">
-
-{{!-- content --}}
-
-            <div class="card mt-5">
-
+{{!-- container start --}}
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col text-center">
+            
 <div class="img">
     <img src="/img/404.gif" class="img" alt="...">
 </div>
-        </div>
 
-        <div class="col-md-6">
-        <div class="card-body">
-            <p class="card-text">{{errorMessage1}}</p>
-            <p class="card-text">{{errorMessage2}}</p>
-            <div class="btn">
-                <a href="./index" class="btn btn-primary">go back</a>
-            </div>
+<h1>{{errorMessage1}}</h1>
+<h5>{{errorMessage2}}</h5>
+
+<div class="btn pb-5">
+    <a href="./index" class="btn btn-primary">GO BACK</a>
+</div>
+
         </div>
-        </div>
-        
     </div>
-</div>  
 </div>
-{{!-- content --}}
-
-</div>
-</div>
-{{!-- container --}}
+{{!-- container start --}}
 
 {{!-- footer start --}}
     {{>footer}}
