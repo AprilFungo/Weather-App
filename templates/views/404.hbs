@@ -18,20 +18,35 @@
 
 {{!-- container start--}}
 <div class="container">
-<div class="row">
+<div class="row tex-center">
 
 {{!-- content --}}
-     <div class="col col-md-6 text-center align-self-center">
-         <div class="img">
-            <img src="/img/404.gif" class="card-img-top" alt="...">
-         </div>
-        <p class="card-text">{{errorMessage1}}</p>
-        <p>{{errorMessage2}}</p>
-         <div class="btn">
-        <a href="/index" type="submit" class="btn btn-primary">Go Back</a>
-         </div>
+
+            <div class="card mt-5">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+<div class="img">
+    <img src="/img/404.gif" class="img" alt="...">
+</div>
+        </div>
+
+        <div class="col-md-6">
+        <div class="card-body">
+            <p class="card-text">{{errorMessage1}}</p>
+            <p class="card-text">{{errorMessage2}}</p>
+            <div class="btn">
+                <a href="./index" class="btn btn-primary">go back</a>
             </div>
+        </div>
+        </div>
+        
+    </div>
+</div>  
+</div>
 {{!-- content --}}
+
 </div>
 </div>
 {{!-- container --}}
