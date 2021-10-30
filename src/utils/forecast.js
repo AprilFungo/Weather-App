@@ -8,7 +8,7 @@ callback('Sorry! Unable to connect to weather service!',undefined)
 }else if (body.error) {
  callback('unable to find location',undefined)
 }else{
-callback(undefined, body.current.temperature + ' \xB0C      ' + body.current.weather_descriptions [0])
+callback(undefined,body.current.weather_descriptions [0]  +  body.current.temperature + ' \xB0C')
 }
 })
 

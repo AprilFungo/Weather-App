@@ -8,7 +8,7 @@ request({url,json:true},(error,{body})=>{
       callback('Unable to connect to location services!',undefined)
    }
    else if (body.features.length==0) {
-      callback('unable to find location Try searching again!', undefined)
+      callback('Unable to find location. Try searching again!', undefined)
    }else{
       callback(undefined,{
          latitude:body.features[0].center[1],

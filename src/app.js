@@ -47,7 +47,7 @@ app.get("/about",(req,res)=>{
 //for help.hbs
 app.get("/help",(req,res)=>{
     res.render('help',{
-        helptext:"Frequently asked questions.",
+        helptext:"Frequently asked questions:",
         name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
 
     })
@@ -63,7 +63,7 @@ return res.send({
         })
     }
 
-     geocode(req.query.address, (error, { latitude, longitude, location } = {}) =>{
+     geocode(req.query.address, (error, { latitude, longitude, location} = {}) =>{
 if (error) {
    return res.send({error})
     }
@@ -76,7 +76,7 @@ if (error) {
    res.send({
        forecast: forecastData,
        location,
-       address:req.query.address
+       address:req.query.address,
    })
 })
 })
