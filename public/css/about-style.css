@@ -1,16 +1,16 @@
+/* all */
 *{
     margin: 0;
     padding:0;
 }
 
+/* body */
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 background-repeat: no-repeat;
 background-size: cover; 
 min-height: 100vh;
 background:linear-gradient(to right,#ffd89b, #19547b);
- /* background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/weather.jpg); */
-
 }
 
 /* navbar*/
@@ -24,9 +24,6 @@ background:linear-gradient(to right,#ffd89b, #19547b);
    top: 0;
     z-index: 1;
 }
-.container{
-    padding-top: 90px;
-}
 #app-name{
   float: left;
   display: block;
@@ -37,7 +34,6 @@ background:linear-gradient(to right,#ffd89b, #19547b);
   text-decoration: none;
   font-size: 20pt;
 }
-
 #topnavlink{ 
      font-weight: bolder;
      float:right;
@@ -51,7 +47,6 @@ background:linear-gradient(to right,#ffd89b, #19547b);
   padding-left: 2%;
   padding-bottom: 2%;
 }
-
 #topnavlink::after{
 content: '';
 width: 0%;
@@ -60,12 +55,15 @@ background: #aab698a4;
 display:block;
 margin: auto;
 }
-
 #topnavlink:hover::after{
   width: 100%;
   transition: 0.5s;
 }
-/* navbar*/
+
+/* container */
+.container{
+    padding-top: 90px;
+}
 
 /* card */
 .card-img{
@@ -75,8 +73,7 @@ margin: auto;
   background-color: transparent;
   border-style: none;
   padding-left: 10%;
-  padding-right: 10%;
-  
+  padding-right: 10%; 
 }
 #profile{
   background-color: rgba(0, 0, 0, 0.37);
@@ -86,13 +83,11 @@ margin: auto;
   box-shadow: 5px 10px rgb(3, 34, 43);
   vertical-align: middle;
 }
-
 #profile:hover{
   background:linear-gradient(to right,#24837e, #5f5d43c5);
   transition: 0.5s;
   cursor: pointer;
 }
-
 #name{
 color:white ;
 }
@@ -106,7 +101,7 @@ color:white ;
   margin-top: 5%;
   margin-bottom: 10%;
 }
-/* card */
+
 /*footer*/
 footer {
   font-weight: bold;
@@ -116,7 +111,7 @@ footer {
   background:linear-gradient(to right,#ffd89b, #19547b);
   padding-left: 2%;
 }  
-/*footer*/
+
 #errormessage{
   padding-top: 60%;
 }

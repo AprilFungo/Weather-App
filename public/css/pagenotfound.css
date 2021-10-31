@@ -1,24 +1,26 @@
+/* all */
 *{
     margin: 0;
     padding:0;
 }
 
+/* body */
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 background-repeat: no-repeat;
 background-size: cover; 
 min-height: 100vh;
 background:linear-gradient(to right,#ffd89b, #19547b);
- /* background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/weather.jpg); */
-
 }
 
+/* icon */
 .img{
   height: 450px;
   padding-top: 2%;
   margin-bottom: -13%;
 }
 
+/* footer */
 footer {
   font-weight: bold;
   position: fixed;

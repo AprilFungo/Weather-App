@@ -100,7 +100,7 @@ if (error) {
 app.get('/help/*', (req, res) => {
     res.render('404',{
         name:"April Fungo, Cris Ann Dacillo, Princes Rea Glipo",
-        errorMessage:"Help Article Not Found!"
+        errorMessage2:"Help article not found!"
     })
 })
 

@@ -1,8 +1,10 @@
+/* all */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* body */
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/weather.jpg);
@@ -22,11 +24,6 @@ min-height: 100vh;
    top: 0;
     z-index: 1;
 }
-
-.container{
-    padding-top: 130px;
-}
-
 #app-name{
   float: left;
   display: block;
@@ -37,7 +34,6 @@ min-height: 100vh;
   text-decoration: none;
   font-size: 20pt;
 }
-
 #topnavlink{ 
      font-weight: bolder;
      float:right;
@@ -51,7 +47,6 @@ min-height: 100vh;
   padding-left: 2%;
   padding-bottom: 2%;
 }
-
 #topnavlink::after{
 content: '';
 width: 0%;
@@ -65,7 +60,11 @@ margin: auto;
   width: 100%;
   transition: 0.5s;
 }
-/* navbar*/
+
+/* conatiner */
+.container{
+    padding-top: 130px;
+}
 
 /*card*/
 #parent-card{
@@ -82,7 +81,14 @@ box-shadow: none;
 }
 .btn{
  float: right;
+background-color: rgba(209, 200, 200, 0.911);
+color: black;
 }
+.btn:focus{
+  box-shadow: none;
+}
+
+ /* data */
 #weekday{
 font-size: 25pt;
 font-family:'Franklin Gothic Medium';

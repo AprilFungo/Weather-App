@@ -5,9 +5,6 @@ const search = document.querySelector('input')
 const messageOne = document.querySelector('#message-1')
 const messageTwo = document.querySelector('#message-2')
 
-// messageOne.textContent = 'From javaScript'
-
-
 weatherform.addEventListener("submit",(e)=>{
     e.preventDefault()
 
@@ -61,11 +58,10 @@ switch(dayOfWeekNumber){
 let weekdayDiv = document.getElementById('weekday');
 weekdayDiv.innerHTML = `${nameOfDay}`;
 
-//Display the date
+//Display the month
 const d = new Date();
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 document.getElementById("month").innerHTML = months[d.getMonth()];
-//Display 
 
 //display date
 const a = new Date();
