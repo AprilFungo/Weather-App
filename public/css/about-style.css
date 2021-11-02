@@ -101,7 +101,10 @@ color:white ;
   margin-top: 5%;
   margin-bottom: 10%;
 }
-
+.card-text{
+ text-align: justify;
+  text-justify: inter-word;
+}
 /*footer*/
 footer {
   font-weight: bold;
