@@ -53,8 +53,6 @@ app.get("/help",(req,res)=>{
     })
 })
 
-
-
 //for weather data
 app.get('/weather',(req,res) =>{
     if(!req.query.address){
