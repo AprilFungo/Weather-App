@@ -48,7 +48,7 @@ app.get("/about",(req,res)=>{
 app.get("/help",(req,res)=>{
     res.render('help',{
         helptext:"Frequently asked questions:",
-        name: 'April Fungo, Cris Ann Dacillo, Princes Rea Glipo'
+        name: 'April Fungo, Cris Ann Dacillo & Princes Rea Glipo'
 
     })
 })
@@ -97,7 +97,7 @@ if (error) {
 //related 404 errors
 app.get('/help/*', (req, res) => {
     res.render('404',{
-        name:"April Fungo, Cris Ann Dacillo, Princes Rea Glipo",
+        name:"April Fungo, Cris Ann Dacillo $ Princes Rea Glipo",
         errorMessage2:"Help article not found!"
     })
 })
@@ -105,7 +105,7 @@ app.get('/help/*', (req, res) => {
 //404 page
 app.get('*', (req, res) => {
     res.render('404',{
-        name:"April Fungo, Cris Ann Dacillo, Princes Rea Glipo",
+        name:"April Fungo, Cris Ann Dacillo & Princes Rea Glipo",
         errorMessage1:"404",
         errorMessage2:"Page not found!"
     })
