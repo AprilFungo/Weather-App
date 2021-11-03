@@ -30,8 +30,8 @@
 
         {{!-- col1 start--}}
         <div class="col-md-6 align-self-center">
-            <h1 class="display-5">WEATHERLY, the instant weather update provider.</h1>
-            <p>Plan your day. Be ready. Take life easy with weatherly!</p>
+            <h1 id="tagline" class="display-5">WEATHERLY, your instant weather update provider.</h1>
+            <p id="tagline-support">Plan your day. Be ready. Take life easy with weatherly!</p>
         </div>
         {{!-- col1 end--}}
 
@@ -39,22 +39,26 @@
         <div class="col col-md-6 mb-5">
 
             {{!-- parent card start--}}
-            <div id="parent-card" class="card mt-4 mb-5">
+            <div id="parent-card" class="card mb-5">
                 <div class="card-body">
 
                     {{!-- card title start--}}
-                    <h4 class="display-6 text-center" style="color: white;">Find your weather here!</h4>
+                    <h4 id="instruction" class="display-6 text-center">Find your weather here!</h4>
                     {{!-- card title end--}}
 
                     {{!-- input card start--}}
                     <div id="form-card" class="card">
-                        <div class="card-body">
-                            <form row-g3>
-                                <div class="mb-3">
-                                    <input type="text" class="form-control" placeholder="search location">
-                                </div>
-                                <button type="submit" class="btn text-center">search</button>
-                            </form>
+                        <div class="card-body text-center">
+                            <form >
+
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="search location">
+                                            <div class="input-group-append">
+                                                <button class="btn" type="submit">SEARCH</button>
+                                            </div>
+                                        </div>
+                            </form> 
+
                         </div>
                     </div>
                     {{!-- input card end--}}

@@ -6,8 +6,8 @@
 
 /* body */
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/weather.jpg);
+ /* background-image:linear-gradient(rgba(209, 56, 176, 0.096), rgba(0, 0, 0, 0.459)), url(../img/weather.jpg); */
+ background-image: url(/img/tempo.jpeg);
 background-repeat: no-repeat;
 background-size: cover; 
 min-height: 100vh;
@@ -22,12 +22,14 @@ min-height: 100vh;
      z-index: 1; 
 }
 .navbar-brand{
-  font-size: 25pt;
+  font-size: 20pt;
+  font-family: Copperplate Gothic Light;
 }
 .nav-link{ 
     font-weight: bolder;
-    font-size: 13pt;
+    font-size: 17pt;
       text-decoration: none;
+      font-family: Gabriola;
 }
 .nav-link:hover{
   color: burlywood;
@@ -37,32 +39,48 @@ min-height: 100vh;
 transition: 0.5s;
 }
 
-.navbar-toggler:focus{
-  box-shadow: none;
-}
-
 /* conatiner */
 .container{
     padding-top: 130px;
+}
+#tagline{
+  color: black;
+  font-family: Lucida Console;
+}
+#tagline-support{
+  color: black;
+  font-family: Lucida Handwriting;
 }
 
 /*card*/
 #parent-card{
  background-image:linear-gradient(rgba(39, 39, 43, 0.199), rgba(255,255,255,.5)), url(../img/gif.gif);
+background-repeat: no-repeat;
+background-size: cover; 
+margin-top: 10%;
 }
 #form-card{
   background-color: rgba(240, 255, 255, 0.075);
 }
+.form-control{
+border-radius: 50px;
+}
 .form-control:focus {
 box-shadow: none;
+}
+#instruction{
+  color: white;
+  font-family: "Lucida Console";
+  font-size: 20pt;
 }
 #result-card{
  background-color: rgba(218, 228, 228, 0.623);
 }
 .btn{
- float: right;
 background-color: rgba(209, 200, 200, 0.911);
 color: black;
+border-bottom-right-radius:50px ;
+border-top-right-radius:50px ;
 }
 .btn:focus{
   box-shadow: none;
@@ -71,7 +89,8 @@ color: black;
  /* data */
 #weekday{
 font-size: 25pt;
-font-family:'Franklin Gothic Medium';
+font-family:'Lucida Console';
+font-weight: bold;
 }
 #month{
   font-size: 15pt;

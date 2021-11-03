@@ -10,7 +10,7 @@ body{
 background-repeat: no-repeat;
 background-size: cover; 
 min-height: 100vh;
-background:linear-gradient(to right,#ffd89b, #19547b);
+background: linear-gradient(to top, rgba(216, 230, 230, 0.897), rgb(153, 239, 241));
 }
 
 /* icon */
@@ -26,6 +26,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background:linear-gradient(to right,#ffd89b, #19547b);
+  background: linear-gradient(to left, rgba(216, 230, 230, 0.897), rgb(153, 239, 241));
   padding-left: 2%;
 }  
