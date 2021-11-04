@@ -10,14 +10,17 @@ body{
 background-repeat: no-repeat;
 background-size: cover; 
 min-height: 100vh;
-background: linear-gradient(to top, rgba(216, 230, 230, 0.897), rgb(153, 239, 241));
+background-color: rgb(144, 210, 212);
 }
 
-/* icon */
-.img{
-  height: 450px;
-  padding-top: 2%;
-  margin-bottom: -13%;
+/* col */
+
+#col1{
+  padding-top: 10%;
+}
+#col2{
+  padding-top: 15%;
+  padding-bottom: 5%;
 }
 
 /* footer */
